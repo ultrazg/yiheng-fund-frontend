@@ -1,0 +1,57 @@
+.buy-layout {
+  margin-top: 50px;
+  //margin-bottom: 50px;
+
+  .backgroundImg {
+    background: #093569 url("../../images/map-pacific-medium.png") no-repeat center 28%;
+    background-size: cover;
+
+    h3 {
+      color: #dfe4ea;
+      padding: 40px 0;
+    }
+  }
+
+  .content {
+    text-align: center;
+
+    h4 {
+      text-align: center;
+      font-size: 25px;
+      font-weight: 100;
+      color: #093569;
+      padding: 10px 0px;
+    }
+
+    table {
+      input[type="text"], input[type="file"] {
+        width: 200px;
+        outline: none;
+        border: none;
+      }
+
+      tr {
+        td {
+          &:nth-child(1) {
+            width: 150px;
+            font-weight: 600;
+            text-align: center;
+          }
+
+          &:nth-child(2) {
+            text-align: left;
+          }
+        }
+      }
+    }
+
+    .submitBtn {
+      width: 200px;
+      border-radius: 0;
+      outline: none;
+      background: #094182;
+      color: white;
+      margin-bottom: 30px;
+    }
+  }
+}

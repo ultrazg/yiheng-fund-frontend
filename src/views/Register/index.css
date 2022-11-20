@@ -1,0 +1,61 @@
+.register-layout {
+  background: url("../../images/backgroundimg.png") no-repeat center 0%;
+}
+.register-layout .navbar {
+  margin-bottom: 0 !important;
+}
+.register-layout .reg-content .box {
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 0px;
+}
+.register-layout .reg-content .box p:nth-child(1) {
+  font-weight: 600;
+  font-size: 40px;
+  color: #1e3799;
+  margin-bottom: 0px;
+}
+.register-layout .reg-content .box p:nth-child(2) {
+  font-weight: 100;
+  font-size: 25px;
+  color: #1e3799;
+}
+.register-layout .reg-content .box .form {
+  margin: 0 auto;
+  width: 300px;
+}
+.register-layout .reg-content .box .form .phoneInput {
+  width: 204px;
+}
+.register-layout .reg-content .box .form .getPhoneVer {
+  margin-top: -56px;
+  margin-left: 207px;
+}
+.register-layout .reg-content .box .form label {
+  color: #1e3799;
+  font-weight: normal;
+}
+.register-layout .reg-content .box .form input {
+  border-radius: 0;
+}
+.register-layout .reg-content .box .form .regBtn {
+  width: 100%;
+  border-radius: 0;
+  outline: none;
+  background: #094182;
+  color: white;
+}
+.register-layout .reg-content .modal-content {
+  border-radius: 0;
+}
+.register-layout .reg-content .modal-content .modal-body p {
+  font-size: 15px;
+  padding: 10px 0px;
+  font-weight: normal;
+  color: black;
+  text-align: left;
+}
+.register-layout .reg-content .modal-content .modal-footer .btn {
+  border-radius: 0;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,19 @@
+.notfound-layout p {
+  text-align: center;
+  color: #1e3799;
+}
+.notfound-layout p:nth-child(1) {
+  padding-top: 19%;
+  font-size: 70px;
+  color: lightcoral;
+  background: url("../../images/404.jpg") center center no-repeat;
+}
+.notfound-layout p:nth-child(2) {
+  font-size: 30px;
+  font-weight: 100;
+}
+.notfound-layout p:nth-child(3) {
+  padding-bottom: 100px;
+  font-weight: 100;
+}
+/*# sourceMappingURL=index.css.map */

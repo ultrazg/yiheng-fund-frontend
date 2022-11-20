@@ -1,0 +1,30 @@
+.about-layout .backgroundImg {
+  background: white url("../../images/backgroundimg.png") no-repeat center 0%;
+}
+.about-layout .backgroundImg h3 {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.about-layout .backgroundImg .info1 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.about-layout .backgroundImg .info2 {
+  margin-top: 20px;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.about-layout .backgroundImg .info2 span {
+  font-weight: 600;
+  color: #093569;
+}
+.about-layout .aboutImgs {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.about-layout .aboutImgs img {
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.css.map */

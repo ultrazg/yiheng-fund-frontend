@@ -1,0 +1,92 @@
+.user-layout {
+  margin-top: 50px;
+}
+.user-layout .background-img {
+  background: white url("../../images/backgroundimg.png") no-repeat center 0%;
+}
+.user-layout .background-img .header-layout {
+  padding: 50px 10px;
+}
+.user-layout .background-img .header-layout .headImg {
+  width: 150px;
+  border-radius: 50%;
+  border: 7px solid #f1f2f6;
+  margin: 0 auto;
+}
+.user-layout .background-img .header-layout .username {
+  margin-top: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+.user-layout .background-img .header-layout .username i {
+  margin-left: 5px;
+  color: #cccccc;
+  transition: 0.3s;
+}
+.user-layout .background-img .header-layout .username i:hover {
+  color: #747d8c;
+}
+.user-layout .background-img .header-layout h4 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.user-layout .background-img .header-layout h4 p {
+  font-size: 15px;
+}
+.user-layout .background-img .header-layout .nothing {
+  text-align: center;
+  color: #747d8c;
+}
+.user-layout .background-img .header-layout .loading {
+  text-align: center;
+  color: #747d8c;
+  font-size: 20px;
+  font-weight: 100;
+}
+.user-layout .background-img .header-layout .loading .icon {
+  margin-right: 5px;
+  animation: loading 2s infinite linear;
+}
+.user-layout .background-img .header-layout .thumbnail {
+  border-radius: 0;
+  border: 1px solid #093569;
+  transition: 0.3s;
+}
+.user-layout .background-img .header-layout .thumbnail:hover {
+  box-shadow: 0px 15px 20px 10px rgba(0, 0, 0, 0.2);
+}
+.user-layout .background-img .header-layout .thumbnail h3 {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  color: #093569;
+  font-weight: 600;
+}
+.user-layout .background-img .header-layout .thumbnail p {
+  font-weight: 100;
+}
+.user-layout .background-img .header-layout .thumbnail span {
+  font-weight: normal;
+}
+.user-layout .background-img .header-layout .thumbnail .img-thumbnail {
+  border-radius: 0;
+}
+.user-layout .background-img .header-layout .thumbnail a {
+  border-radius: 0;
+}
+.user-layout .background-img .header-layout .page button {
+  border-radius: 0;
+}
+.su {
+  font-weight: 600 !important;
+  color: #5cb85c !important;
+}
+.er {
+  font-weight: 600 !important;
+  color: #d9534f !important;
+}
+.ci {
+  font-weight: 600;
+  color: #f0ad4e;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,27 @@
+.datalist-layout .content {
+  padding: 30px 10px;
+}
+.datalist-layout .content input {
+  border-radius: 0;
+}
+.datalist-layout .content select {
+  border-radius: 0;
+}
+.datalist-layout .content button {
+  border-radius: 0;
+  outline: none;
+  border: none;
+  background: #094182;
+  color: white;
+  width: 100%;
+}
+.datalist-layout .content button:active {
+  outline: none;
+  border: none;
+  background: #094182;
+}
+.datalist-layout .content textarea {
+  resize: none;
+  border-radius: 0;
+}
+/*# sourceMappingURL=index.css.map */

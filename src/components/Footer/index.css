@@ -1,0 +1,85 @@
+.footer-layout {
+  width: 100%;
+  background: #110621;
+  padding: 50px 0px 150px 0;
+  overflow: hidden;
+}
+.footer-layout .list {
+  text-align: center;
+  color: #dfe4ea;
+}
+.footer-layout .list li {
+  margin-top: 5px;
+}
+.footer-layout .list li:nth-child(1) {
+  font-size: 15px;
+}
+.footer-layout .list li a {
+  color: #747d8c;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.footer-layout .list li a:hover {
+  color: #dfe4ea;
+}
+.footer-layout .info {
+  text-align: center;
+  margin-top: 50px;
+}
+.footer-layout .info .icons {
+  margin: 0 auto;
+}
+.footer-layout .info .icons span i {
+  color: #747d8c;
+  font-size: 20px;
+  margin: 0px 10px 15px 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.footer-layout .info .icons span i:hover {
+  color: #dfe4ea;
+}
+.footer-layout .info a {
+  color: #747d8c;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.footer-layout .info a:hover {
+  color: #dfe4ea;
+}
+.footer-layout .copyright {
+  text-align: center;
+  margin-top: 15px;
+}
+.footer-layout .copyright p {
+  color: #747d8c;
+}
+.footer-layout .copyright p a {
+  color: #747d8c;
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer-layout .copyright p a:hover {
+  color: #dfe4ea;
+}
+.weixin {
+  width: 200px;
+}
+.weixin img {
+  width: 100px;
+  display: inline-block;
+}
+.weixin_text {
+  display: flex;
+}
+.weixin_text span {
+  flex: 1;
+  text-align: center;
+  color: #747d8c;
+}
+.tell i {
+  margin-right: 3px;
+  color: #5cb85c;
+}
+/*# sourceMappingURL=index.css.map */

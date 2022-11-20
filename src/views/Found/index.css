@@ -1,0 +1,41 @@
+.found-layout {
+  background: url("../../images/backgroundimg.png") no-repeat center 0%;
+}
+.found-layout .content .box {
+  margin: 0 auto;
+  text-align: center;
+  padding: 70px 0px;
+}
+.found-layout .content .box p {
+  color: #1e3799;
+  font-size: 30px;
+  font-weight: 100;
+}
+.found-layout .content .box .form {
+  margin: 0 auto;
+  width: 300px;
+}
+.found-layout .content .box .form label {
+  color: #1e3799;
+  font-weight: normal;
+}
+.found-layout .content .box .form input {
+  border-radius: 0;
+}
+.found-layout .content .box .form .verBtn {
+  width: 100%;
+  border-radius: 0;
+  outline: none;
+  margin-bottom: 30px;
+  background: #f1f2f6;
+  color: #093569;
+}
+.found-layout .content .box .form .changeBtn {
+  width: 100%;
+  border-radius: 0;
+  outline: none;
+  margin-bottom: 30px;
+  background: #094182;
+  color: white;
+}
+/*# sourceMappingURL=index.css.map */

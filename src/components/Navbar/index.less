@@ -1,0 +1,96 @@
+@media screen and (max-width: 768px) {
+  .navbar-default .navbar-left .navbar-searchbtn{
+    top: 10px;
+    width: 50px;
+  }
+}
+
+.navbar {
+  border: 0px;
+}
+
+.active {
+  //color: #70a1ff;
+  color: red;
+}
+
+.navbar-default {
+  background: #094182;
+  overflow: hidden;
+
+  .nav-logo {
+    margin-top: -10px;
+  }
+
+  .navbar-left {
+    position: relative;
+
+    .navbar-search {
+      border: none;
+      border-radius: 0;
+      background: #1d5493;
+      color: #f1f2f6;
+    }
+
+    .navbar-searchbtn {
+      position: absolute;
+      border: none;
+      border-radius: 0;
+      background: #1d5493;
+      color: #dfe4ea;
+      right: 15px;
+    }
+  }
+
+  .navbar-right {
+
+    li {
+      a:visited {
+        color: #dfe4ea;
+      }
+
+      a {
+        font-size: 15px;
+        font-weight: 400;
+        color: #ffffff;
+        transition: .3s;
+
+        &:hover {
+          color: #70a1ff;
+        }
+      }
+    }
+
+    .login-username {
+      color: #f1f2f6;
+      line-height: 50px;
+      margin-left: 10px;
+
+      p {
+        margin: 0;
+      }
+
+      a {
+        color: #4bcffa !important;
+        //text-decoration: none;
+
+        &:nth-child(2){
+          color: #1e90ff !important;
+        }
+      }
+    }
+
+    .signup {
+      display: block;
+      margin-top: 10px;
+      height: 10px;
+      line-height: 1px;
+      background: #48dbfb;
+      transition: .5s;
+
+      &:hover {
+        background: #5352ed;
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+@media screen and (max-width: 768px) {
+  .navbar-default .navbar-left .navbar-searchbtn {
+    top: 10px;
+    width: 50px;
+  }
+}
+.navbar {
+  border: 0px;
+}
+.active {
+  color: red;
+}
+.navbar-default {
+  background: #094182;
+  overflow: hidden;
+}
+.navbar-default .nav-logo {
+  margin-top: -10px;
+}
+.navbar-default .navbar-left {
+  position: relative;
+}
+.navbar-default .navbar-left .navbar-search {
+  border: none;
+  border-radius: 0;
+  background: #1d5493;
+  color: #f1f2f6;
+}
+.navbar-default .navbar-left .navbar-searchbtn {
+  position: absolute;
+  border: none;
+  border-radius: 0;
+  background: #1d5493;
+  color: #dfe4ea;
+  right: 15px;
+}
+.navbar-default .navbar-right li a:visited {
+  color: #dfe4ea;
+}
+.navbar-default .navbar-right li a {
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+  transition: 0.3s;
+}
+.navbar-default .navbar-right li a:hover {
+  color: #70a1ff;
+}
+.navbar-default .navbar-right .login-username {
+  color: #f1f2f6;
+  line-height: 50px;
+  margin-left: 10px;
+}
+.navbar-default .navbar-right .login-username p {
+  margin: 0;
+}
+.navbar-default .navbar-right .login-username a {
+  color: #4bcffa !important;
+}
+.navbar-default .navbar-right .login-username a:nth-child(2) {
+  color: #1e90ff !important;
+}
+.navbar-default .navbar-right .signup {
+  display: block;
+  margin-top: 10px;
+  height: 10px;
+  line-height: 1px;
+  background: #48dbfb;
+  transition: 0.5s;
+}
+.navbar-default .navbar-right .signup:hover {
+  background: #5352ed;
+}
+/*# sourceMappingURL=index.css.map */

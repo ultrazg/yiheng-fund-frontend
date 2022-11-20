@@ -1,0 +1,46 @@
+.chaoshi-layout {
+  margin-top: 50px;
+}
+.chaoshi-layout .backgroundImg {
+  background: #093569 url("../../images/map-pacific-medium.png") no-repeat center 28%;
+  background-size: cover;
+}
+.chaoshi-layout .backgroundImg h3 {
+  color: #dfe4ea;
+  padding: 40px 0;
+}
+.chaoshi-layout .content {
+  padding: 50px 10px;
+}
+.chaoshi-layout .content .title {
+  font-weight: 600;
+  font-size: 18px;
+  border-left: 5px solid #093569;
+  padding-left: 5px;
+  color: #093569;
+}
+.chaoshi-layout .content .loading {
+  font-weight: 100;
+  color: #747d8c;
+  font-size: 20px;
+  text-align: center;
+}
+.chaoshi-layout .content .loading .icon {
+  margin-right: 5px;
+  animation: loading 2s infinite linear;
+}
+.chaoshi-layout .content th,
+.chaoshi-layout .content td {
+  text-align: center;
+}
+.chaoshi-layout .content td > a {
+  color: red;
+  transition: 0.3s;
+}
+.chaoshi-layout .content td > a:hover {
+  color: pink;
+}
+.chaoshi-layout .content .fund {
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=index.css.map */
